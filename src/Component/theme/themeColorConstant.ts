@@ -1,0 +1,11 @@
+export const color = {
+  ORANGE: "#FF5722",
+  WHITESMOKE: "#F5F5F5",
+  PURPLE: "#322B58",
+  YELLOW: "#FFB23E",
+  GREEN: "#39CB15",
+  GREY: "#808080",
+  SAVED: "#3AC4FF",
+  LIGHT_GREY: "#F2F2F2",
+  DARK_GREY: "#656565",
+};

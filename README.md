@@ -47,7 +47,15 @@ Project is using ESLint to make sure that we keep same coding style in the proje
 Webpack is a module bundler which packs all modules with dependencies – js, styles, images, etc. into static assets .js, .css, .jpg , .png, etc. Webpack comes with presets which help for compilation into the required form. For example, react preset that helps to get the final output in react form, es2015 or env preset that helps to compile the code in ES5 or 6 or 7, etc. We have used babel 6 in the project setup. In case you want to switch to babel7, install the required packages of babel using @babel/babel-package-name.
 
 
-## Project structure
+## Architecture and Project structure
+
+This project follows the `Clean Architecture`, and hence have focused the structuring of the project on the standard practices that are recommended by the `Clean Architecture`. You will find we have focused on `de-coupling` and `reusability` of the code.
+
+![CleanArch](https://user-images.githubusercontent.com/21957552/192457247-4fe3aa81-68bd-491d-8bad-953177edeb11.png)
+
+Storybook is a part of the presentation layer of the Clean Architecture. Also inside the storybook, we have separate data layer and there is no domain/business logic written in storybook, only the core component UI and working.
+
+
 This project is structured in the following way:
 
 ```
